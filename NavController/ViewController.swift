@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
    
     @IBAction func moveToTwo(_ sender: Any) {
-        
+         
    let svc = UIStoryboard(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "SVC") as! SecondViewController
     self.navigationController?.pushViewController(svc, animated: true)
     }
